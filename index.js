@@ -19,6 +19,7 @@ app.get('/', (req, res) => {
 
 
 mongoose.connect("mongodb+srv://janiduhimansawelarathna:UDEZfONpJ0xoA7eZ@backenddb.hqke3e6.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB")
+    //use your database link to connect the mongo DB
 .then(()=>{
     console.log("connected to database!");
     app.listen(3000, ()=>{
